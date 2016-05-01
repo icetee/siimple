@@ -1,7 +1,7 @@
 /**
  * siimple - Minimal CSS framework for flat and clean designs.
- * @version v1.3.5
- * @link https://siimple.juanes.xyz/
+ * @version v1.3.4
+ * @link https://siimple.github.io/
  * @license MIT
  */
 
@@ -136,15 +136,15 @@ h6 {
   cursor: pointer;
   border-radius: 5px;
   transition: all 0.3s;
+  color: #ffffff;
+  background-color: #09a0f6;
+  border: 0px;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -khtml-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
-  user-select: none;
-  color: #ffffff;
-  background-color: #09a0f6;
-  border: 0px; }
+  user-select: none; }
   .btn:hover {
     text-decoration: none; }
   .btn:hover {
@@ -183,12 +183,6 @@ h6 {
     cursor: pointer;
     border-radius: 5px;
     transition: all 0.3s;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
     color: #09a0f6;
     background-color: transparent;
     border: 1px solid #09a0f6; }
@@ -315,12 +309,6 @@ pre {
   cursor: pointer;
   border-radius: 5px;
   transition: all 0.3s;
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
   color: #ffffff;
   background-color: #09a0f6;
   border: 0px; }

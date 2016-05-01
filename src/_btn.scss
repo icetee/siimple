@@ -28,6 +28,9 @@
 
 	//Button hover
 	&:hover { text-decoration: none; }
+
+	//Disable text selection in button
+	@include no-select(none);
 }
 
 //Button style
@@ -61,8 +64,6 @@
 		&:hover { color: $white; background-color: $blue1; }
 	}
 
-	//Disable text selection in button
-	@include no-select(none);
 }
 
 //Button colors
